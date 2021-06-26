@@ -16,5 +16,4 @@ function shadowizard(options) {
     });
 }
 
-
 module.exports.shadowizard = shadowizard;
