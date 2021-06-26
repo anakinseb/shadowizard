@@ -1,2 +1,30 @@
+
 # shadowizard
 An nom package test in my personal account
+
+# What is this?
+
+Get perfect shadows every time for the non-designer.
+
+# Installation 
+
+`npm i anakinseb/shadowizard --save`
+
+Then...
+
+```
+import { shadowizard } from 'shadowizard';
+
+shadowizard({
+    shadow_type: 'soft',
+    padding: false
+});
+```
+
+## Options
+
+Shadowizard suports 2 options, both of which are optional:
+
+* *shadow_type* - _hard | soft_ (Defaults to soft)
+* *padding* - _boolean_ (Defaults to false) 
+
